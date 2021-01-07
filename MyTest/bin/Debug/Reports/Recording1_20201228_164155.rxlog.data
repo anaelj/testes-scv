@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1m"
+		durationms="61359"
+		type="root"
+		rid="1a46ead6518db300"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="densenv04"
+		rxversion="9.3.4.0"
+		host="DESENV04"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="2966x900"
+		timestamp="28/12/2020 16:41:59"
+		timestampiso="2020-12-28T20:41:59"
+		endtime="28/12/2020 16:43:00"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.620"
+			timeRelativeToTestModuleStartTime="00:08.620"
+			timeWallClock="16:42:08"
+			time="00:08.620"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>nomeCliente
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.646"
+			timeRelativeToTestModuleStartTime="00:08.646"
+			timeWallClock="16:42:08"
+			time="00:08.646"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer.SCVExeAtalho2' at 16;24.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Aplicativos em execução']/button[@accessiblename='SCV.exe - Atalho (2)']"
+				itempath="container[@controlid='40965']//toolbar[@accessiblename='Aplicativos em execução']/button[@accessiblename='SCV.exe - Atalho (2)']"
+				fullname="MyTestRepository.Explorer.SCVExeAtalho2"
+				id="38fec47e2e7b4666ba54b72d1771f34c"
+				timeout="60000"
+				codefile="E:\ranorex\03\MyTest\MyTest\Recording1.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.362"
+			timeRelativeToTestModuleStartTime="01:01.362"
+			timeWallClock="16:43:00"
+			time="01:01.362"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

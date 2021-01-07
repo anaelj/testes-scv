@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.14s"
+		durationms="9144"
+		type="root"
+		rid="2ae05b1ad70eb54"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="densenv04"
+		rxversion="9.3.4.0"
+		host="DESENV04"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="2966x900"
+		timestamp="04/01/2021 11:11:41"
+		timestampiso="2021-01-04T15:11:41"
+		endtime="04/01/2021 11:11:50"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to run application 'yourapp'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.949"
+			timeRelativeToTestModuleStartTime="00:08.949"
+			timeWallClock="11:11:50"
+			time="00:08.949"
+			level="Warn"
+			category="Data"
+			errimg="images_Recordin_456fdf52\Recordin_456fdf52_0f1eb4e8_trace.jpg"
+			errthumb="images_Recordin_456fdf52\Recordin_456fdf52_0f1eb4e8_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>caminhoSCV, exeName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.985"
+			timeRelativeToTestModuleStartTime="00:08.985"
+			timeWallClock="11:11:50"
+			time="00:08.985"
+			level="Info"
+			category="Application"
+			errimg="images_Recordin_456fdf52\Recordin_456fdf52_0f1eb4e8_trace.jpg"
+			errthumb="images_Recordin_456fdf52\Recordin_456fdf52_0f1eb4e8_trace_thumb.jpg">
+			<message>
+				Run application 'yourapp' in normal mode. Return value bound to $exeName.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="E:\ranorex\03\MyTest\MyTest\Recording1.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.038"
+			timeRelativeToTestModuleStartTime="00:09.038"
+			timeWallClock="11:11:50"
+			time="00:09.038"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_456fdf52\Recordin_456fdf52_7f22ff84_trace.jpg"
+			errthumb="images_Recordin_456fdf52\Recordin_456fdf52_7f22ff84_trace_thumb.jpg">
+			<message>
+				Failed to run application 'yourapp'.<br/>O sistema não pode encontrar o arquivo especificado
+			</message>
+			<metainfo
+				stacktrace="   em Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized, RunAppFlags runFlags)
+   em Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized)
+   em MyTest.Recording1.Ranorex.Core.Testing.ITestModule.Run() na E:\ranorex\03\MyTest\MyTest\Recording1.cs:linha 109
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="E:\ranorex\03\MyTest\MyTest\Recording1.cs"
+				codeline="109"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

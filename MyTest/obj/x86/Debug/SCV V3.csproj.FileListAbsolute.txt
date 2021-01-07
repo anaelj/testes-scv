@@ -1,0 +1,10 @@
+E:\ranorex\03\MyTest\MyTest\bin\Debug\MyTest.rxtmg
+E:\ranorex\03\MyTest\MyTest\bin\Debug\MyTest.rxtst
+E:\ranorex\03\MyTest\MyTest\bin\Debug\SCV V3.exe.config
+E:\ranorex\03\MyTest\MyTest\bin\Debug\SCV V3.xml
+E:\ranorex\03\MyTest\MyTest\bin\Debug\SCV V3.exe
+E:\ranorex\03\MyTest\MyTest\bin\Debug\SCV V3.pdb
+E:\ranorex\03\MyTest\MyTest\bin\Debug\Ranorex.Core.Resolver.dll
+E:\ranorex\03\MyTest\MyTest\obj\x86\Debug\SCV V3.csprojResolveAssemblyReference.cache
+E:\ranorex\03\MyTest\MyTest\obj\x86\Debug\SCV V3.exe
+E:\ranorex\03\MyTest\MyTest\obj\x86\Debug\SCV V3.pdb

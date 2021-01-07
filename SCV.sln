@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 9.3.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{82A9B61D-FFBC-42F8-BAF8-7AD4D7DB1CB1}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCV V3", "MyTest\SCV V3.csproj", "{FC9C3662-CCA2-4D74-B151-B34BC2B571EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC9C3662-CCA2-4D74-B151-B34BC2B571EB}.Debug|x86.Build.0 = Debug|x86
+		{FC9C3662-CCA2-4D74-B151-B34BC2B571EB}.Debug|x86.ActiveCfg = Debug|x86
+		{FC9C3662-CCA2-4D74-B151-B34BC2B571EB}.Release|x86.Build.0 = Release|x86
+		{FC9C3662-CCA2-4D74-B151-B34BC2B571EB}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

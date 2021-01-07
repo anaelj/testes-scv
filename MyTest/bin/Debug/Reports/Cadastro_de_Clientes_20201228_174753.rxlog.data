@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="68860"
+		type="root"
+		rid="15d4944fa36652bc"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="densenv04"
+		rxversion="9.3.4.0"
+		host="DESENV04"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="2966x900"
+		timestamp="28/12/2020 17:47:57"
+		timestampiso="2020-12-28T21:47:57"
+		endtime="28/12/2020 17:49:06"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Cadastro_de_Clientes">
+		<detail>
+			Cadastro_de_Clientes
+		</detail>
+		<errormessage>
+			Failed to find item 'MyTestRepository.SCVRetaguardaSistemaDeGestao.ImgPrincipal'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.571"
+			timeRelativeToTestModuleStartTime="00:08.571"
+			timeWallClock="17:48:05"
+			time="00:08.571"
+			level="Warn"
+			category="Data"
+			errimg="images_Cadastro_78f09b3e\Cadastro_78f09b3e_fc1eb875_trace.jpg"
+			errthumb="images_Cadastro_78f09b3e\Cadastro_78f09b3e_fc1eb875_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>nomeCliente
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.599"
+			timeRelativeToTestModuleStartTime="00:08.599"
+			timeWallClock="17:48:05"
+			time="00:08.599"
+			level="Info"
+			category="Mouse"
+			errimg="images_Cadastro_78f09b3e\Cadastro_78f09b3e_fc1eb875_trace.jpg"
+			errthumb="images_Cadastro_78f09b3e\Cadastro_78f09b3e_fc1eb875_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SCVRetaguardaSistemaDeGestao.ImgPrincipal' at 1135;134.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='frmPrincipal']/picture[@name='imgPrincipal']"
+				itempath="picture[@name='imgPrincipal']"
+				fullname="MyTestRepository.SCVRetaguardaSistemaDeGestao.ImgPrincipal"
+				id="83df70c22fe74a1f863a955f3a12a37f"
+				timeout="60000"
+				codefile="E:\ranorex\03\MyTest\MyTest\Cadastro_de_Clientes.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.744"
+			timeRelativeToTestModuleStartTime="01:08.744"
+			timeWallClock="17:49:06"
+			time="01:08.744"
+			level="Error"
+			category="Module"
+			errimg="images_Cadastro_78f09b3e\Cadastro_78f09b3e_62cad4c8_trace.jpg"
+			errthumb="images_Cadastro_78f09b3e\Cadastro_78f09b3e_62cad4c8_trace_thumb.jpg">
+			<message>
+				Failed to find item 'MyTestRepository.SCVRetaguardaSistemaDeGestao.ImgPrincipal'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@name='frmPrincipal']/picture[@name='imgPrincipal']' at step 'form[@name='frmPrincipal']' after 828 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   em Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   em Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   em Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   em Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   em MyTest.MyTestRepositoryFolders.SCVRetaguardaSistemaDeGestaoAppFolder.get_ImgPrincipal() na E:\ranorex\03\MyTest\MyTest\MyTestRepository.cs:linha 245&#13;&#10;   em MyTest.Cadastro_de_Clientes.Ranorex.Core.Testing.ITestModule.Run() na E:\ranorex\03\MyTest\MyTest\Cadastro_de_Clientes.cs:linha 96&#13;&#10;   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="E:\ranorex\03\MyTest\MyTest\Cadastro_de_Clientes.cs"
+				codeline="96"
+				type="repoitem"
+				path="/form[@name='frmPrincipal']/picture[@name='imgPrincipal']"
+				itempath="picture[@name='imgPrincipal']"
+				fullname="MyTestRepository.SCVRetaguardaSistemaDeGestao.ImgPrincipal"
+				id="83df70c22fe74a1f863a955f3a12a37f"
+				timeout="60000"
+				failedStep="form[@name='frmPrincipal']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.64s"
+		durationms="9635"
+		type="root"
+		rid="80268e75368c680"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="densenv04"
+		rxversion="9.3.4.0"
+		host="DESENV04"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="2966x900"
+		timestamp="28/12/2020 17:55:16"
+		timestampiso="2020-12-28T21:55:16"
+		endtime="28/12/2020 17:55:25"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Login">
+		<detail>
+			Login
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.585"
+			timeRelativeToTestModuleStartTime="00:09.585"
+			timeWallClock="17:55:25"
+			time="00:09.585"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>scv, caminhoSCV
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.606"
+			timeRelativeToTestModuleStartTime="00:09.606"
+			timeWallClock="17:55:25"
+			time="00:09.606"
+			level="Info"
+			category="Application">
+			<message>
+				Run application with file name from variable $scv in normal mode. Return value bound to $scv.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="E:\ranorex\03\MyTest\MyTest\Login.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

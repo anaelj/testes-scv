@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.4s"
+		durationms="8403"
+		type="root"
+		rid="2135c4b6c8081ce6"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="densenv04"
+		rxversion="9.3.4.0"
+		host="DESENV04"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="2966x900"
+		timestamp="04/01/2021 11:12:42"
+		timestampiso="2021-01-04T15:12:42"
+		endtime="04/01/2021 11:12:50"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.351"
+			timeRelativeToTestModuleStartTime="00:08.351"
+			timeWallClock="11:12:50"
+			time="00:08.351"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>caminhoSCV, exeName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.368"
+			timeRelativeToTestModuleStartTime="00:08.368"
+			timeWallClock="11:12:50"
+			time="00:08.368"
+			level="Info"
+			category="Application">
+			<message>
+				Run application with file name from variable $exeName in normal mode. Return value bound to $exeName.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="E:\ranorex\03\MyTest\MyTest\Recording1.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

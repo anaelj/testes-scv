@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="47.12s"
+		durationms="47116"
+		type="root"
+		rid="2bdb0bbd6c10400"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="densenv04"
+		rxversion="9.3.4.0"
+		host="DESENV04"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="2966x900"
+		timestamp="28/12/2020 17:44:20"
+		timestampiso="2020-12-28T21:44:20"
+		endtime="28/12/2020 17:45:07"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Cadastro_de_Clientes">
+		<detail>
+			Cadastro_de_Clientes
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.372"
+			timeRelativeToTestModuleStartTime="00:09.372"
+			timeWallClock="17:44:30"
+			time="00:09.372"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>nomeCliente
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.400"
+			timeRelativeToTestModuleStartTime="00:09.400"
+			timeWallClock="17:44:30"
+			time="00:09.400"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SCVRetaguardaSistemaDeGestao.ImgPrincipal' at 1135;134.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='frmPrincipal']/picture[@name='imgPrincipal']"
+				itempath="picture[@name='imgPrincipal']"
+				fullname="MyTestRepository.SCVRetaguardaSistemaDeGestao.ImgPrincipal"
+				id="83df70c22fe74a1f863a955f3a12a37f"
+				timeout="60000"
+				codefile="E:\ranorex\03\MyTest\MyTest\Cadastro_de_Clientes.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.119"
+			timeRelativeToTestModuleStartTime="00:47.119"
+			timeWallClock="17:45:07"
+			time="00:47.119"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

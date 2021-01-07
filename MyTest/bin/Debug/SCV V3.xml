@@ -1,0 +1,672 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SCV V3</name>
+    </assembly>
+    <members>
+        <member name="T:MyTest.cadastroClientes">
+             <summary>
+            The cadastroClientes recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.cadastroClientes.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.cadastroClientes.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.cadastroClientes.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.cadastroClientes.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.cadastroClientes.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.cadastroClientes.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.cadastroClientes.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.ClienteResumido">
+             <summary>
+            The ClienteResumido recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.ClienteResumido.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.ClienteResumido.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.ClienteResumido.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.ClienteResumido.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.ClienteResumido.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.ClienteResumido.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.ClienteResumido.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.fornecedor">
+             <summary>
+            The fornecedor recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.fornecedor.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.fornecedor.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.fornecedor.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.fornecedor.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.fornecedor.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.fornecedor.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.fornecedor.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Login.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.Login.scv">
+            <summary>
+            Gets or sets the value of variable scv.
+            </summary>
+        </member>
+        <member name="P:MyTest.Login.caminhoSCV">
+            <summary>
+            Gets or sets the value of variable caminhoSCV.
+            </summary>
+        </member>
+        <member name="P:MyTest.Login.cpfUsuario">
+            <summary>
+            Gets or sets the value of variable cpfUsuario.
+            </summary>
+        </member>
+        <member name="P:MyTest.Login.cpfCliente">
+            <summary>
+            Gets or sets the value of variable cpfCliente.
+            </summary>
+        </member>
+        <member name="P:MyTest.Login.senhaDia">
+            <summary>
+            Gets or sets the value of variable senhaDia.
+            </summary>
+        </member>
+        <member name="M:MyTest.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepository">
+            <summary>
+            The class representing the MyTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.SCVRetaguarda">
+            <summary>
+            The SCVRetaguarda folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.ProblemasEncontrados">
+            <summary>
+            The ProblemasEncontrados folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.SCVRetaguardaSistemaDeGestao">
+            <summary>
+            The SCVRetaguardaSistemaDeGestao folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.ContextMenuSCV">
+            <summary>
+            The ContextMenuSCV folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.FrmPrincipal">
+            <summary>
+            The FrmPrincipal folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.GeradorDeCPF4DevsGoogleChrome">
+            <summary>
+            The GeradorDeCPF4DevsGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.FrmNotificacao">
+            <summary>
+            The FrmNotificacao folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.ConsultaCadastroDeCidades">
+            <summary>
+            The ConsultaCadastroDeCidades folder.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.SCVRetaguardaAppFolder">
+            <summary>
+            The SCVRetaguardaAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.SCVRetaguardaAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SCVRetaguarda  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaAppFolder.EdtLogin">
+            <summary>
+            The EdtLogin item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaAppFolder.EdtLoginInfo">
+            <summary>
+            The EdtLogin item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaAppFolder.ButtonLogar">
+            <summary>
+            The ButtonLogar item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaAppFolder.ButtonLogarInfo">
+            <summary>
+            The ButtonLogar item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaAppFolder.Senha">
+            <summary>
+            The Senha item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaAppFolder.SenhaInfo">
+            <summary>
+            The Senha item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaAppFolder.EdtSenha">
+            <summary>
+            The EdtSenha item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaAppFolder.EdtSenhaInfo">
+            <summary>
+            The EdtSenha item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.ProblemasEncontradosAppFolder">
+            <summary>
+            The ProblemasEncontradosAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.ProblemasEncontradosAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ProblemasEncontrados  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ProblemasEncontradosAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ProblemasEncontradosAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ProblemasEncontradosAppFolder.OKEnter">
+            <summary>
+            The OKEnter item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ProblemasEncontradosAppFolder.OKEnterInfo">
+            <summary>
+            The OKEnter item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ProblemasEncontradosAppFolder.MmoMensagem">
+            <summary>
+            The MmoMensagem item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ProblemasEncontradosAppFolder.MmoMensagemInfo">
+            <summary>
+            The MmoMensagem item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.SCVRetaguardaSistemaDeGestaoAppFolder">
+            <summary>
+            The SCVRetaguardaSistemaDeGestaoAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.SCVRetaguardaSistemaDeGestaoAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SCVRetaguardaSistemaDeGestao  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaSistemaDeGestaoAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaSistemaDeGestaoAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaSistemaDeGestaoAppFolder.ImgPrincipal">
+            <summary>
+            The ImgPrincipal item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaSistemaDeGestaoAppFolder.ImgPrincipalInfo">
+            <summary>
+            The ImgPrincipal item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaSistemaDeGestaoAppFolder.MenuItemCadastros">
+            <summary>
+            The MenuItemCadastros item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.SCVRetaguardaSistemaDeGestaoAppFolder.MenuItemCadastrosInfo">
+            <summary>
+            The MenuItemCadastros item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.ContextMenuSCVAppFolder">
+            <summary>
+            The ContextMenuSCVAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.ContextMenuSCVAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ContextMenuSCV  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContextMenuSCVAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContextMenuSCVAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContextMenuSCVAppFolder.MenuItem">
+            <summary>
+            The MenuItem item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContextMenuSCVAppFolder.MenuItemInfo">
+            <summary>
+            The MenuItem item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContextMenuSCVAppFolder.MenuItem1">
+            <summary>
+            The MenuItem1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContextMenuSCVAppFolder.MenuItem1Info">
+            <summary>
+            The MenuItem1 item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.FrmPrincipalAppFolder">
+            <summary>
+            The FrmPrincipalAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.FrmPrincipalAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmPrincipal  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.FrmPrincipalAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.FrmPrincipalAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.FrmPrincipalAppFolder.VersaoDeTestesNaoUsarEmProducao">
+            <summary>
+            The VersaoDeTestesNaoUsarEmProducao item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.FrmPrincipalAppFolder.VersaoDeTestesNaoUsarEmProducaoInfo">
+            <summary>
+            The VersaoDeTestesNaoUsarEmProducao item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.GeradorDeCPF4DevsGoogleChromeAppFolder">
+            <summary>
+            The GeradorDeCPF4DevsGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.GeradorDeCPF4DevsGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GeradorDeCPF4DevsGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.GeradorDeCPF4DevsGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.GeradorDeCPF4DevsGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.GeradorDeCPF4DevsGoogleChromeAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.GeradorDeCPF4DevsGoogleChromeAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ExplorerAppFolder.RanorexStudio1ExecutandoOWindows">
+            <summary>
+            The RanorexStudio1ExecutandoOWindows item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ExplorerAppFolder.RanorexStudio1ExecutandoOWindowsInfo">
+            <summary>
+            The RanorexStudio1ExecutandoOWindows item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ExplorerAppFolder.SCVExeAtalho21ExecutandoOWi">
+            <summary>
+            The SCVExeAtalho21ExecutandoOWi item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ExplorerAppFolder.SCVExeAtalho21ExecutandoOWiInfo">
+            <summary>
+            The SCVExeAtalho21ExecutandoOWi item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.FrmNotificacaoAppFolder">
+            <summary>
+            The FrmNotificacaoAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.FrmNotificacaoAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmNotificacao  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.FrmNotificacaoAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.FrmNotificacaoAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.FrmNotificacaoAppFolder.MmoMensagem">
+            <summary>
+            The MmoMensagem item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.FrmNotificacaoAppFolder.MmoMensagemInfo">
+            <summary>
+            The MmoMensagem item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.FrmNotificacaoAppFolder.ConfirmaEnter">
+            <summary>
+            The ConfirmaEnter item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.FrmNotificacaoAppFolder.ConfirmaEnterInfo">
+            <summary>
+            The ConfirmaEnter item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.FrmNotificacaoAppFolder.CancelarEsc">
+            <summary>
+            The CancelarEsc item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.FrmNotificacaoAppFolder.CancelarEscInfo">
+            <summary>
+            The CancelarEsc item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.ConsultaCadastroDeCidadesAppFolder">
+            <summary>
+            The ConsultaCadastroDeCidadesAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.ConsultaCadastroDeCidadesAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ConsultaCadastroDeCidades  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ConsultaCadastroDeCidadesAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ConsultaCadastroDeCidadesAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Recording1.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.Recording1.caminhoSCV">
+            <summary>
+            Gets or sets the value of variable caminhoSCV.
+            </summary>
+        </member>
+        <member name="P:MyTest.Recording1.exeName">
+            <summary>
+            Gets or sets the value of variable exeName.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
